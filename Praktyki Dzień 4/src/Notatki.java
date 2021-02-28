@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class Notatki {
     public static void main(String[] args) {
         int[] array = {1, 2};
         System.out.println("array[0] = " + array[0] + "\narray[1] = " + array[1]);
