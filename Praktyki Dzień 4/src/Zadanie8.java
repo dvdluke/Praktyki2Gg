@@ -30,8 +30,5 @@ public class Zadanie8
             System.out.println("Płeć: " + płeć);
             System.out.println("Klasa: " + klasa);
             System.out.println("Broń: " + bron);
-
-
-
         }
     }
