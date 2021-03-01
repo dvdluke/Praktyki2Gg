@@ -84,8 +84,8 @@ public class Main {
         System.out.println("ZADANIE 4 2/2");
         System.out.println();
         Okrag Okrag = new Okrag(8,5);
-        System.out.println("Pole= "+Okrag.Pole()+"\n Obwód= "+Okrag.Obwod());
-        System.out.println(Okrag.getPromien());
+        System.out.println("Pole = "+Okrag.Pole()+"\nObwód = "+Okrag.Obwod());
+        System.out.println("Promień okręgu = " + Okrag.getPromien());
 
     }
 }

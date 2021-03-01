@@ -2,10 +2,12 @@ public class Okrag {
     private double srednica;
     private double promien;
 
-    public Okrag(double srednica, double promien) {
+    public Okrag(double srednica, double promien)
+    {
         this.srednica = srednica;
         this.promien = srednica/2;
     }
+
     public double Pole(){
         return promien * promien * 3;
     }
@@ -13,11 +15,13 @@ public class Okrag {
         return 2*3*promien;
     }
 
-    public double getSrednica() {
+    public double getSrednica()
+    {
         return srednica;
     }
 
-    public void setSrednica(double srednica) {
+    public void setSrednica(double srednica)
+    {
         this.srednica = srednica;
     }
 
@@ -25,7 +29,4 @@ public class Okrag {
         return promien;
     }
 
-    public void setPromien(double promien) {
-        this.promien = promien;
-    }
 }
